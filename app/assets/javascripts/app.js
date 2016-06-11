@@ -1,5 +1,5 @@
 angular
-  .module('app', ['ui.router', 'templates', 'Devise'])
+  .module('app', ['ui.router', 'templates', 'Devise', 'ng-rails-csrf'])
   .config(['$stateProvider', '$urlRouterProvider',
     function($stateProvider, $urlRouterProvider){
       $stateProvider

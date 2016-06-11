@@ -14,11 +14,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'angularjs-rails'
 gem 'angular-ui-router-rails'
 gem 'angular-rails-templates'
-gem 'angular_rails_csrf'
+gem 'ng-rails-csrf'
 gem 'devise'
 gem 'responders'
 gem "twitter-bootstrap-rails"
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   gem 'byebug'

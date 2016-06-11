@@ -21,6 +21,10 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    active_model_serializers (0.10.0)
+      actionpack (>= 4.0)
+      activemodel (>= 4.0)
+      railties (>= 4.0)
     activejob (4.2.6)
       activesupport (= 4.2.6)
       globalid (>= 0.3.0)
@@ -42,8 +46,6 @@ GEM
       sprockets (~> 3.0)
       tilt
     angular-ui-router-rails (0.2.15)
-    angular_rails_csrf (1.0.4)
-      rails (>= 3, < 5)
     angularjs-rails (1.5.6)
     arel (6.0.3)
     bcrypt (3.1.11)
@@ -97,6 +99,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
+    ng-rails-csrf (0.1.0)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -180,15 +183,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers (~> 0.10.0)
   angular-rails-templates
   angular-ui-router-rails
-  angular_rails_csrf
   angularjs-rails
   byebug
   coffee-rails (~> 4.1.0)
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  ng-rails-csrf
   rails (= 4.2.6)
   rails-assets-angular-devise!
   responders
